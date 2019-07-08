@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Pakistan Cricket Board Official</title>
+    <link rel="stylesheet" href="styles/mainStyle.css">
+    <link rel="stylesheet" href="styles/content_style.css">
+    <link href="https://www.pcb.com.pk/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  </head>
+  <body>
+    <header>
+      <div class="nav-container">
+      <nav>
+        <div class="navbar-list">
+          <ul>
+            <li>Home</li>
+            <li id="menu-pcb">
+              PCB <i class="fas fa-angle-down"></i>
+              <div class="menu menu-pcb">
+                <ul>
+                  <li>About PCB</li>
+                  <li>Chariman</li>
+                  <li>Board of Governers</li>
+                </ul>
+              </div>
+            </li>
+            <li>Election & Scurnity</li>
+            <li id="menu-nca">
+              NCA <i class="fas fa-angle-down"></i>
+              <div class="menu menu-nca">
+                <ul>
+                  <li>About NCA</li>
+                  <li>Facilities</li>
+                  <li>Programs</li>
+                </ul>
+              </div>
+            </li>
+            <li>Downlods</li>
+            <li id="menu-car">
+              Career <i class="fas fa-angle-down"></i>
+              <div class="menu menu-car">
+                <ul>
+                  <li>Current Opening(s)</li>
+                  <li>Archieves</li>
+                </ul>
+              </div>
+            </li>
+            <li>Ads</li>
+            <li>Carporate Governance</li>
+            <li>PM - CJ Dam Funding</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+      </nav>
+      <div class="media-container">
+        <div class="search-div">
+            <input type="search" class='input-search' placeholder="Search..."/>
+        </div>
+        <div class="icon-pack">
+          <a href="https://www.facebook.com/PakistanCricketBoard" target="_blank">
+            <img src="social_icons/facebook.png" class="img-icons"/>
+          </a>
+          <a href="https://twitter.com/TheRealPCB/" target="_blank">
+            <img src="social_icons/twitter.png" class="img-icons"/>
+          </a>
+          <a href="https://instagram.com/therealpcb#" target="_blank">
+            <img src="social_icons/instagram.jpg" class="img-icons"/>
+          </a>
+          <a href="https://www.youtube.com/PakistanCricketOfficial" target="_blank">
+            <img src="social_icons/youtube.png" class="img-icons"/>
+          </a>
+
+        </div>
+      </div>
+      </div>
+      <!-- Cover Photo Area -->
+      <div class="cover">
+        <img src="images/logo.png" class="logo"/>
+      </div>
+      <!-- Navigation #2 -->
+      <div class="navbar-2">
+        <ul>
+          <li>Home</li>
+          <li>Team Profile <i class="fas fa-angle-down"></i>
+          </li>
+          <li>Womens' Cricket</li>
+          <li>Blog</li>
+          <li>Press Release</li>
+          <li>Domestic <i class="fas fa-angle-down"></i>
+          </li>
+          <li>Stats</li>
+          <li>Calender <i class="fas fa-angle-down"></i></li>
+          <li>Features</li>
+          <li>FAQs</li>
+        </ul>
+      </div>
+    </header>
+    <!-- Main Content -->
+    <main>
+      <!--Main Div that contains all the main content -->
+      <div class="content-container">
+        <div class="column-1">
+          <div class="btn-group">
+            <button class="btn active" onclick="openTab(event, 'latest')">Latest</button>
+            <button class="btn" onclick="openTab(event, 'news')">News</button>
+            <button class="btn" onclick="openTab(event, 'release')">Press Release</button>
+          </div>
+          <div id="latest" class="tabcontent">
+            <div class="carousel-cont">
+              <img src="images/girl.jpg" class="img-carousel"/>
+              <h4>Pakistan Women's team captain Bismah Maroof Press Conference at National Stadium Karachi</h4>
+              <p>EVENTS: Pakistan Women's team captain Bismah Maroof Press Conference at National Stadium Karachi</p>
+            </div>
+            <div class="squares">
+              <div class="square-1"></div>
+              <div class="square-2"></div>
+            </div>
+          </div>
+
+          <div id="news" class="tabcontent">
+            <div class="carousel-cont">
+              <img src="images/ball_img.jpg" class="img-carousel"/>
+              <h4>State Bank and Higher Education Commission to feature in four-day Patron's Trophy Grade-II final</h4>
+              <p>NEWS: Lahore, 01 May 2019: Bangladesh U16 won the first three-day match against Pakistan U16 by five wickets</p>
+            </div>
+          </div>
+
+          <div id="release" class="tabcontent">
+            <div class="carousel-cont">
+              <img src="images/girl.jpg" class="img-carousel"/>
+              <h4>Pakistan Women's team captain Bismah Maroof Press Conference at National Stadium Karachi</h4>
+              <p>EVENTS: Pakistan Women's team captain Bismah Maroof Press Conference at National Stadium Karachi</p>
+            </div>
+          </div>
+        </div>
+        <div class="column-2">
+          <div class="btn-group">
+            <button class="btn active" onclick="openTab_2(event, 'events')">Events</button>
+            <button class="btn" onclick="openTab_2(event, 'photos')">Photos</button>
+          </div>
+          <div id="events" class="tabcontent_2">
+            <div class="media">
+              <img src="images/girl.jpg" class="media-img"/>
+              <div class="media-body">
+                <p class="date">April 14, 2019</p>
+                <p class="title">Pakistan Women's team captain Bismah Maroof Press Conference at National Stadium Karachi</p>
+              </div>
+
+            </div>
+            <div class="media">
+              <img src="images/micky.jpg" class="media-img"/>
+              <div class="media-body">
+                <p class="date">April 14, 2019</p>
+                <p class="title">Pakistan Women's team captain Bismah Maroof Press Conference at National Stadium Karachi</p>
+              </div>
+
+            </div>
+            <div class="media">
+              <img src="images/micky.jpg" class="media-img"/>
+              <div class="media-body">
+                <p class="date">April 14, 2019</p>
+                <p class="title">Pakistan Women's team captain Bismah Maroof Press Conference at National Stadium Karachi</p>
+              </div>
+
+            </div>
+            <div class="media">
+              <img src="images/girl.jpg" class="media-img"/>
+              <div class="media-body">
+                <p class="date">April 14, 2019</p>
+                <p class="title">Pakistan Women's team captain Bismah Maroof Press Conference at National Stadium Karachi</p>
+              </div>
+
+            </div>
+          </div>
+
+          <div id="photos" class="tabcontent_2">
+            <div class="media">
+              <img src="images/player.jpg" class="media-img"/>
+              <div class="media-body">
+                <p class="date">April 30, 2019</p>
+                <p class="title">Photo Gallery - Pakistani vs Northamptonshire Tour Match</p>
+              </div>
+
+            </div>
+            <div class="media">
+              <img src="images/inter.jpg" class="media-img"/>
+              <div class="media-body">
+                <p class="date">January 23, 2019</p>
+                <p class="title">Pakistan U 19 head coach Mohammad Azam Khan media talk audio</p>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+        <div class="column-3">
+          <div class="ad-container">
+            <a href="https://www.youtube.com/channel/UCiWrjBhlICf_L_RK5y6Vrxw/videos" target="_blank">
+              <img src="images/ad_youtube.jpg" class="img-ad"/>
+            </a>
+            <div class="btn-group">
+              <button class="btn" onclick="openTab_3(event, 'live')">Live</button>
+              <button class="btn active" onclick="openTab_3(event, 'fixtures')">Fixtures</button>
+              <button class="btn" onclick="openTab_3(event, 'results')">Results</button>
+            </div>
+            <div id="live" class="tabcontent_3">
+              No Live Matches!
+            </div>
+            <div id="fixtures" class="tabcontent_3">
+              <div class="info">
+                Only T20I - <b>England</b> vs <b>Pakistan</b> <br>
+                Sun May 5  13:30 | 18:30 PST | at Cardiff
+                <hr>
+              </div>
+              <div class="info">
+                1st ODI - <b>England</b> vs <b>Pakistan</b> <br>
+                Wed May 8  12:00 | 17:00 PST | at London
+                <hr>
+              </div>
+              <div class="info">
+                2nd ODI - <b>England</b> vs <b>Pakistan</b> <br>
+                Sat May 11  10:00 | 15:00 PST | at Southampton
+                <hr>
+              </div>
+              <div class="info">
+                Only T20I - <b>England</b> vs <b>Pakistan</b> <br>
+                Sun May 5  13:30 | 18:30 PST | at Cardiff
+                <hr>
+              </div>
+              <div class="info">
+                2nd ODI - <b>England</b> vs <b>Pakistan</b> <br>
+                Sat May 11  10:00 | 15:00 PST | at Southampton
+                <hr>
+              </div>
+              <div class="info">
+                2nd ODI - <b>England</b> vs <b>Pakistan</b> <br>
+                Sat May 11  10:00 | 15:00 PST | at Southampton
+                <hr>
+              </div>
+              <div class="info">
+                2nd ODI - <b>England</b> vs <b>Pakistan</b> <br>
+                Sat May 11  10:00 | 15:00 PST | at Southampton
+                <hr>
+              </div>
+              <div class="info">
+                2nd ODI - <b>England</b> vs <b>Pakistan</b> <br>
+                Sat May 11  10:00 | 15:00 PST | at Southampton
+                <hr>
+              </div>
+              <div class="info">
+                2nd ODI - <b>England</b> vs <b>Pakistan</b> <br>
+                Sat May 11  10:00 | 15:00 PST | at Southampton
+                <hr>
+              </div>
+              <div class="info">
+                2nd ODI - <b>England</b> vs <b>Pakistan</b> <br>
+                Sat May 11  10:00 | 15:00 PST | at Southampton
+                <hr>
+              </div>
+            </div>
+            <div id="results" class="tabcontent_3">
+              <div class="info">
+                1st Three Day Pakistan Under-16s vs Bangladesh Under-16s <br>
+                Pakistan Under-16s 148 and 110; Bangladesh Under-16s 139 and 121/5; <br>
+                Apr 29-1, 2019 at Fatullah<br>
+                Bangladesh Under-16s won by 5 wickets Scoreboard<br>
+                  <hr>
+              </div>
+              <div class="info">
+                1st Three Day Pakistan Under-16s vs Bangladesh Under-16s <br>
+                Pakistan Under-16s 148 and 110; Bangladesh Under-16s 139 and 121/5; <br>
+                Apr 29-1, 2019 at Fatullah<br>
+                Bangladesh Under-16s won by 5 wickets Scoreboard<br>
+                  <hr>
+              </div>
+              <div class="info">
+                1st Three Day Pakistan Under-16s vs Bangladesh Under-16s <br>
+                Pakistan Under-16s 148 and 110; Bangladesh Under-16s 139 and 121/5; <br>
+                Apr 29-1, 2019 at Fatullah<br>
+                Bangladesh Under-16s won by 5 wickets Scoreboard<br>
+                  <hr>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        </div>
+
+      </div>
+    </main>
+    <!-- Footer -->
+    <footer class="main-footer">
+      <div class="wrap">
+        <div class="row-fluid">
+          <div class="widget span3 bunyad-about">
+            <h3 class="title">Latest</h3>
+            <div class="about-widget">
+              <ul>
+                <li> <a href="https://www.pcb.com.pk/news.html">News</a> </li>
+                <li> <a href="https://www.pcb.com.pk/press-release.html">Press Release</a> </li>
+                <li> <a href="https://www.pcb.com.pk/blog.html">Blog</a> </li>
+              </ul>
+
+            </div>
+          </div>
+          <div class="widget span3 bunyad-about">
+            <h3 class="title">Multimedia</h3>
+            <div class="about-widget">
+              <ul>
+                <li> <a href="https://www.pcb.com.pk/photos-gallery.html">Photos</a> </li>
+                <li> <a href="https://www.pcb.com.pk/videos.html">Audio & Video</a> </li>
+                <li> <a href="https://www.pcb.com.pk/vintage/Vintage-286.html">Vintage</a> </li>
+              </ul>
+            </div>
+          </div>
+          <div class="widget span3 bunyad-about">
+            <h3 class="title">Features</h3>
+            <div class="about-widget">
+              <ul>
+                <li> <a href="https://www.pcb.com.pk/event.html">Events</a> </li>
+                <li> <a href="https://www.pcb.com.pk/editor-pick.html">Editor's Pick</a> </li>
+                <li> <a href="https://www.pcb.com.pk/interview.html">Interviews</a> </li>
+              </ul>
+            </div>
+          </div>
+          <div class="widget span3 bunyad-about">
+            <h3 class="title">About PCB</h3>
+            <div class="about-widget">
+              <p>PCB is the governing body for cricket in Pakistan. <a href="https://www.pcb.com.pk/about-pcb.html"><u>Read more</u></a></p>
+              <p>&nbsp;</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="lower-foot">
+
+      <div class="wrap">
+        <div class="row-fluid">
+          <div class=" span6 widgets">
+            <div class="textwidget">All rights reserved by PCB &copy; 2019 </div>
+          </div>
+          <div class=" span6 widgets">
+            <div class="textwidget" style="float:right;"><a href="https://www.pcb.com.pk/pcb-disclaimer.html">Disclaimer</a> | <a href="https://www.pcb.com.pk/terms-conditions.html">Terms & Conditions</a> | <a href="https://www.pcb.com.pk/pcb-privacy-statment.html">Privacy Statement </a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+</footer>
+
+      <script src="script.js"></script>
+  </body>
+</html>
