@@ -1,0 +1,129 @@
+@import url('https://use.fontawesome.com/releases/v5.8.1/css/all.css');
+@import url('https://fonts.googleapis.com/css?family=Muli');
+:root{
+  --main-color: #06351f;
+  --border-color: #8F7223;
+}
+html, body{
+  margin: 0;
+  background: #efefef;
+}
+.nav-container{
+  background-color: var(--main-color);
+  padding-top: 1px;
+  display: grid;
+  grid-template-columns: 9fr 3fr;
+}
+nav{
+  margin-left: -40px;
+}
+.navbar-list  > ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin-top: -1px;
+}
+.navbar-list > ul li{
+  margin: 5px 10px 0px 5px;
+  font-family: "Muli";
+  color: white;
+  font-size: small;
+}
+.media-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.icon-pack{
+  display: flex;
+  margin: 5px 0px 0px 8px;
+}
+.img-icons{
+  width: 20px;
+  height: 20px;
+}
+.input-search{
+  background-color: rgba(255, 255, 255, .5);
+  border: none;
+  padding: 2px 4px;
+  margin: 5px 0px 0px 8px;
+  border-radius: 3px;
+  width: 130px;
+  outline: none;
+}
+::placeholder{
+  color: rgba(255, 255, 255, 0.8);
+}
+.menu > ul{
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  background: var(--main-color);
+  position: fixed;
+  z-index: 1;
+  padding: 5px 5px 5px 0px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, .3);
+}
+.menu > ul li{
+  padding: 6px;
+}
+.menu > ul li:hover{
+  background: var(--border-color);
+  cursor: context-menu;
+}
+
+@media only screen and (max-width: 600px) {
+  nav {
+    display: none;
+  }
+  .media-container{
+    padding: 5px;
+  }
+  .nav-container{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+/*
+Cover Photo Area
+
+*/
+
+.cover{
+  background: gray url("https://www.thenews.com.pk//assets/uploads/updates/2019-03-07/440916_7532393_pcb_updates.jpg");
+  background-position: center;
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  display: flex;
+
+}
+.logo{
+  width: auto;
+  height: 65%;
+}
+@media only screen and (max-width: 600px) {
+  .cover{
+    justify-content: center;
+  }
+}
+
+.navbar-2{
+  width: 100%;
+  background: var(--main-color);
+  display: flex;
+  border-bottom: solid 3px var(--border-color);
+}
+.navbar-2 > ul{
+  list-style-type: none;
+}
+.navbar-2 > ul li{
+  float: left;
+  color: white;
+  padding: 2px 20px 0px 2px;
+  font-family: "Muli";
+  font-size: 0.8em;
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
